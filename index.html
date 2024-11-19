@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./asset/css/style.css">
+</head>
+
+<body>
+    <!-- to-do section -->
+    <div class="container">
+        <h2 class="text-center">To-Do List</h2>
+        <div class="add_item_part">
+            <div class="input-group mb-3 todo-input justify-content-center">
+                <input type="text" class="form-control" id="itemName" placeholder="Enter Item Name">
+                <button class="btn btn-primary" id="addButton">Add</button>
+            </div>
+        </div>
+
+        <div class="filter-buttons text-center mt-3">
+            <div class="total-tasks text-center mt-3">
+                <h5>Total Tasks: <span id="totalTasks">0</span></h5>
+            </div>
+
+            <div class="filter-buttons text-center mt-3">
+                <button class="btn btn-secondary" onclick="filterTodos('All', this)">All</button>
+                <button class="btn btn-secondary" onclick="filterTodos('Pending', this)">Pending</button>
+                <button class="btn btn-secondary" onclick="filterTodos('Ongoing', this)">Ongoing</button>
+                <button class="btn btn-secondary" onclick="filterTodos('Complete', this)">Complete</button>
+                <button class="btn btn-secondary" onclick="clearCompletedTodos(this)">Clear Completed</button>
+            </div>
+        </div>
+
+        <div class="table-responsive">
+            <table id="todoList" class="table mt-5">
+                <thead>
+                    <tr>
+                        <th>Item Name</th>
+                        <th>Actions</th>
+                        <th>Timer</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Message for no tasks -->
+        <div id="noTasksMessage" style="display: none; text-align: center;">
+            <img src="" alt="No Tasks" style="width: 100px; height: 100px;"/>
+            <p>No task, please enter your task!</p>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./asset/js/script.js"></script>
+</body>
+
+</html>

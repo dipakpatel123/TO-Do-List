@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Plus Jakarta Sans' ;
+    src: url('../font/PlusJakartaSans-Bold.ttf');
+    font-weight: 100;
+}
+@font-face {
+    font-family:  'Plus Jakarta Sans';
+    src: url('../font/PlusJakartaSans-Light.ttf');
+    font-weight: 200;
+}
+ 
+@font-face {
+    font-family:  'Plus Jakarta Sans';
+    src: url('../font/PlusJakartaSans-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family:  'Plus Jakarta Sans';
+    src: url('../font/PlusJakartaSans-Medium.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family:  'Plus Jakarta Sans ';
+    src: url('../font/PlusJakartaSans-SemiBold.ttf');
+    font-weight: 600;
+}
+@font-face {
+    font-family:  'Plus Jakarta Sans';
+    src: url('../font/PlusJakartaSans-Bold.ttf');
+    font-weight: 700;
+}
+
+/* sora font */
+
+@font-face{
+    font-family: 'Sora';
+    src: url('../font/Sora-ExtraLight.ttf');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family:  'Sora';
+    src: url('../font/Sora-Light.ttf');
+    font-weight: 200;
+}
+@font-face {
+    font-family:  'Sora';
+    src: url('../font/Sora-Thin.ttf');
+    font-weight: 300;
+}
+ 
+@font-face {
+    font-family:  'Sora';
+    src: url('../font/Sora-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family:  'Sora';
+    src: url('../font/Sora-Medium.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family:  'Sora ';
+    src: url('../font/Sora-SemiBold.ttf');
+    font-weight: 600;
+}
+@font-face {
+    font-family:  'Sora';
+    src: url('../font/Sora-Bold.ttf');
+    font-weight: 700;
+}
